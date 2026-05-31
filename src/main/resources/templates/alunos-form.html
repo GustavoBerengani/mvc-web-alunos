@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastro de Alunos</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			margin: 0;
+			padding: 40px;
+		}
+
+		main {
+			background-color: white;
+			max-width: 500px;
+			margin: auto;
+			padding: 24px;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		label, input, button {
+			display: block;
+			width: 100%;
+		}
+
+		input {
+			box-sizing: border-box;
+			margin: 6px 0 16px;
+			padding: 10px;
+		}
+
+		button {
+			background-color: #1f6feb;
+			color: white;
+			border: none;
+			padding: 11px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Cadastro de Alunos</h1>
+		<form action="/alunos" method="post">
+			<label for="nome">Nome:</label>
+			<input id="nome" name="nome" type="text" required>
+
+			<label for="matricula">Matrícula:</label>
+			<input id="matricula" name="matricula" type="text" required>
+
+			<button type="submit">Cadastrar</button>
+		</form>
+	</main>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alunos Cadastrados</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			margin: 0;
+			padding: 40px;
+		}
+
+		main {
+			background-color: white;
+			max-width: 700px;
+			margin: auto;
+			padding: 24px;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: left;
+		}
+
+		th {
+			background-color: #f0f3f6;
+		}
+
+		a {
+			color: #1f6feb;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Alunos Cadastrados</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Matrícula</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="aluno : ${alunos}">
+					<td th:text="${aluno.nome}"></td>
+					<td th:text="${aluno.matricula}"></td>
+				</tr>
+			</tbody>
+		</table>
+		<a href="/alunos">Cadastrar outro aluno</a>
+	</main>
+</body>
+</html>
