@@ -5,7 +5,6 @@ Projeto simples desenvolvido com Spring Boot e Thymeleaf para demonstrar o funci
 ## Participantes
 
 - Gustavo Negrão de Souza Berengani Ramos
-- William da Silva Marques
 
 ## Funcionalidade
 
