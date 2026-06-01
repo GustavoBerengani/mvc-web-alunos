@@ -2,10 +2,6 @@
 
 Projeto simples desenvolvido com Spring Boot e Thymeleaf para demonstrar o funcionamento da arquitetura MVC em uma aplicação web.
 
-## Participantes
-
-- Gustavo Negrão de Souza Berengani Ramos
-
 ## Funcionalidade
 
 A aplicação permite cadastrar um aluno informando nome e matrícula. Depois do cadastro, os alunos adicionados são exibidos em uma tabela.
