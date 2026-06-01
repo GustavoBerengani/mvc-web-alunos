@@ -1,10 +1,11 @@
 # Projeto MVC Web - Cadastro de Alunos
 
-Membros do grupo:
-Gustavo Negrão de Souza Berengani Ramos
-William da Silva Marques
-
 Projeto simples desenvolvido com Spring Boot e Thymeleaf para demonstrar o funcionamento da arquitetura MVC em uma aplicação web.
+
+## Participantes
+
+- Gustavo Negrão de Souza Berengani Ramos
+- William da Silva Marques
 
 ## Funcionalidade
 
